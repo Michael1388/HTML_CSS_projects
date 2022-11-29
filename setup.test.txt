@@ -1,1 +1,1 @@
-This is setup a test.
+This is a setup test.
