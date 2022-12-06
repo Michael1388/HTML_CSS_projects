@@ -1,0 +1,27 @@
+One page project.
+
+Create a simple page to contain the foollowing:
+
+Chocolate Sunflower Seed Signup page.
+
+Supply 2 photos and 1 embeded video.
+
+Add simple comment to educate the reader for each photo.
+
+Create a signup form.
+
+Include these elements and attributes:
+
+Home page section (heading tag, <p> tag, etc.).
+
+A section with pictures (<img> tags, etc.).
+
+Contact form (<form> tag, <input> tag, etc.).
+
+A section with a video(s) (<iframe> tag, src attribute, etc.).
+
+Footer (<footer> tag, etc.).
+
+A <nav> element that utilizes HTML bookmarks to allow the user to jump to various sections on the page.
+
+End.
