@@ -26,7 +26,7 @@ nav {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
-}
+}span 
 
 h1 {
     line-height: 50px;
@@ -166,7 +166,7 @@ section {
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.774);
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
