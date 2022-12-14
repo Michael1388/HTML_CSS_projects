@@ -1,0 +1,170 @@
+
+/*--------------------------
+Basic Styles
+--------------------------*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#tower, img {
+    filter: grayscale(70%);
+    border-radius: 15px;
+}
+
+footer, p {
+    text-align: center;
+   font-weight: bold;
+}
+
+table, th, td {
+    border: 2px solid;
+    width: 20%;
+    padding-inline: 3px;
+    padding-block: 3px;
+    color: rgb(104, 136, 116);
+}
+
+#destination th {
+    border-color: rgb(125, 120, 120);
+    background-color: rgb(120, 122, 124);
+    color: rgb(249, 249, 249);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 200px;
+    color: antiquewhite;
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Navigation */
+
+.navbar {
+    overflow: hidden;
+    background-color:antiquewhite;
+    position: fixed; /* set the navbar to fixed position*/
+    top: 0%; /* position the navbar at the top of the page */
+    width: 100%; /* full width */
+    z-index: 100;
+}
+
+/* ---- links inside the navbar --- */
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(67, 136, 95);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change BG on mouse-over */
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* --- Main content ------ */
+
+.main {
+    margin-top: 30px; /*--- Add a top margin to avoid cpntent overlay -- */
+}
+
+/*--- Columns --- */
+
+.column {
+    float: left;
+    width: 50%;
+    height: fit-content;
+    font-size: large;
+    color: rgb(104, 136, 116);
+}
+
+/* clears floats after the columns*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+#rock:hover {
+    background: #ddd;
+    color: rgb(104, 136, 116); 
+    margin-left: 40%;
+    margin-right: 40%;
+  
+}
+
+/* image overlay */
+
+/* container needed to position overlay. Adjust width as needed */
+.container1 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+/* make the image to responsive*/
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* The overlay effect- lays on top of the container and over the image */
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: antiquewhite;
+    background: rgba(0,0,0,0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 86%;
+    border-radius: 15px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* When you hover over the container, fade in the overlay title*/
+
+.container1:hover .overlay {
+    opacity: 1;
+}
+
+/* text over video */
+
+.container2 {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+/* Media Query*/
+
+@media screen and (max-width:600px) {
+    p {
+        background-color: blue;
+    }
+}
+
