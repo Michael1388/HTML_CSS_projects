@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!--head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>ML</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png">
+    </head>
+
+    <!--body-->
+    <body class="background"></body>
+
+        <!--Navbar-->
+        <div class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#github">GitHub</a>
+            <a href="#contact">Contact</a>
+        </div>
+        
+        <!--breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--background video if applicable-->
+        <div id="home">
+            <video autoplay muted loop id="relax_video">
+                <source src="img/video/garden_path.mp4" type="video/mp4">
+                <!--dispaly message if video fails to run-->
+            Your browser does not support HTML5 video, you are not<br>seeing all the possibilities the web has to offer.
+            </video>
+        </div>
+
+        <!--video text-->
+        <div class="video_text">
+            <h1 class="white_text">Michael La Rocca | Software Developer</h1>
+            <strong>
+                <p class="center">
+                    <q>Every day is a gift
+                        <br>relax, enjoy and 
+                        <br>   welcome!
+                    </q>
+                    <br> -Michael
+                    <br>
+                    <br> Thank you for stopping by!
+                </p>
+            </strong>
+        </div>
+
+        <!------about section---->
+        <div class="row" id="about">
+            <!--left column-->
+            <div class="column_2">
+                <img src="img/coding_1.jpg" alt="coding for thee">
+            </div>
+        </div>
+            <!--right column-->
+            <div class="column_1">
+                <h1>About</h1>
+                <p>
+                    I'm a software developer. Every project is an amazing new journey down a yet to be discovered path. A puzzle to be created, and I love puzzles! 
+                    <br>
+                    <br>I'm a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and am trained and experienced in the following programming and web languages: C#, JavaScript, SQL, HTML, CSS and more.
+                    <br>
+                    <br>I am a full stack developer. I'd love to work with you on your project, <a href="#contact">Contact</a> me below! 
+                </p>
+            </div>
+        </div>
+
+        <!---GitHub section-->
+        <div class="row" id="github">
+            <!--left column---->
+            <div class="column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Michael1388" target="_blank">My GitHub</a></p>
+                </p>
+            </div>
+            <!--right column---->
+            <div class="column_2">
+                <a href="https://github.com/Michael1388" target="_blank"><img src="img/github-mark.png" alt="Michael1388 GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!---contact section---->
+        <div class="row" id="contact">
+            <!---contact image, left conlumn---->
+            <div class="column_2 column_tall">
+                <img src="img/contact.jpg" alt="contact image">
+            </div>
+            <!----contact form, right column----->
+            <div class="column_1 column_tall">
+                <h1>Contact</h1>
+                <!---this specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/xoqbggob" method="post"> <!--here we are utilizing a 3rd party service to submit the contact data, insert your endpoint in the action attribute---->
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                    <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!---footer---->
+        <footer>
+            <p>
+            <p class="center">&copy <a href="https:www.mysite.com" target="_blank"> Michael La Rocca </a></p>
+            <br>
+        </p>
+        </footer>
+    </body>
+</html>
