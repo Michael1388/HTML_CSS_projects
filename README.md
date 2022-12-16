@@ -1,3 +1,6 @@
+### HTML and CSS Projects
+
+
 This repository is comprised of all of my HTML and CSS projects while at The Tech Academy.
 Feel free to browse around.
 
