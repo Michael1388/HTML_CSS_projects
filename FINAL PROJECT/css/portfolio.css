@@ -16,7 +16,7 @@ h1 {
 /* heading 1 element hover effects */
 h1:hover {
     filter: grayscale(5%); /* adds a slight grey filter to h1 headings when hoverd over */
-    transform: scale(1.1); /* when h1 elements are hovered over - size incresses by 1.1 */
+    transform: scale(1.01); /* when h1 elements are hovered over - size incresses by 1.1 */
     transition: transform 1s; /* causes transformation to last 1 second */
 }
 
@@ -49,12 +49,12 @@ p:hover {
 /* center class hover effect - only affects the quote, github link, and footer */
 .center:hover {
     transition: transform 2s; /* makes the transform last 2 seconds */
-    transform: scale(1.1);  /* makes elements with class "center" increase by x when hovered over  */
+    transform: scale(1.01);  /* makes elements with class "center" increase by x when hovered over  */
 }
 
 /* anchor elements */
 a {
-    color: blue; /* ensures all links are the specified color*/
+    color: rgba(142, 142, 144, 0.673); /* ensures all links are the specified color*/
 }
 
 /* quotation elements */
@@ -67,7 +67,7 @@ img {
     filter: grayscale(75%); /* rids pictures of 75% of their color */
     border-radius: 8px; /*  all images have x % rounded corners */
     max-width: 100%; /* ensures images stay within the width of their container */
-    height: 340px; /* sets heigth of ALL images */
+    height: 240px; /* sets heigth of ALL images */
     display: block; /* by specifying display:"block" we ensure images are able to be centered */
     margin-left: auto; /* in combination with "margin-right: auto" this centers all images */
     margin-right: auto;
@@ -77,8 +77,8 @@ img {
 
 img:hover {
     filter: grayscale(5%); /* brings back most of the images color when hovered over*/
-    transition: transform 1s; /*  transition lasts x */
-    transform: scale(1.1); /* image is increased by x when hovered over*/
+    transition: transform 2s; /*  transition lasts x */
+    transform: scale(1.05); /* image is increased by x when hovered over*/
 }
 
 /* the @media rule is used in media queries to apply different styles for different media/types of devices */
@@ -104,7 +104,7 @@ footer {
 
 .navbar {
     overflow: hidden; /* ensures that any content that overflows beyond the boundary of the navbar is not displayed*/
-    background-color: black; /* colors the navbar */
+    background-color: rgb(207, 197, 179); /* colors the navbar */
     position: fixed; /* keeps navbar at the top of the screen as we scroll*/
     top: 0; /* ensures no space is displayed above the navbar */
     width: 100%; /* makes the navbar span the entire width of the page  */
@@ -155,15 +155,15 @@ footer {
 /*  navbar hover effects   */
 
 .navbar a:hover {
-    background-color: #f4f4f4; /* bg color that displays when you hover over link */
-    color: black; /* defines font color displayed when navbar "a" elements are hoverd over */
+    background-color: rgb(205, 190, 162); /* bg color that displays when you hover over link */
+    color: rgb(93, 93, 93); /* defines font color displayed when navbar "a" elements are hoverd over */
     font-weight: bold; /* makes the navbar text bold when hovered over  */
 }
 
 /* navbar home button  */
 
 .navbar a.active { /* this targets the "a" element on the navbar with the "active" class */
-    background-color: darkgrey;
+    background-color: rgb(188, 188, 188);
 }
 
 /*  ***End of Navbar Styling*** */
@@ -189,11 +189,11 @@ footer {
 /* texts over video */
 
 .video_text {
-    background: rgba(0, 0, 0, 0.5); /* provides a semi-transparent background for the text to sit over */
+    background: rgba(0, 0, 0, 0.25); /* provides a semi-transparent background for the text to sit over */
     color: white; /* font color */
     width: 100%; /*  ensures the video-text container fills the width of the video  */
-    padding: 20px; /* adds padding around the video text container so that the background goes slightly beyond the text */
-    position: relative; /* sets the text relative to its normal positioning, allowing us touse the animation below  */
+    padding: 200px; /* adds padding around the video text container (also determines how much video will display)so that the background goes slightly beyond the text */
+    position: relative; /* sets the text relative to its normal positioning, allowing us to use the animation below  */
     -webkit-animation: movevideotext 3.75s;
     animation: movevideotext 3.75s;
 }
@@ -217,9 +217,9 @@ footer {
     float: left;
     width: 50%; /* ensures column takes up half of the page width */
     padding: 10px; 
-    padding-top: 3%; /* ensures there is space between top of the column and our headings */
-    height: 400px; /* sets height of the column to xx px - may need to be adjusted depending on the text you enter */
-    background-color: #f2f2f2; /* sets background color oof the columns with class "column_1" */
+    padding-top: .05%; /* ensures there is space between top of the column and our headings */
+    height: 300px; /* sets height of the column to xx px - may need to be adjusted depending on the text you enter */
+    background-color: rgb(232, 224, 209); /* sets background color oof the columns with class "column_1" */
 }
 
 /*  screeens 576px and smaller will display a scroll bar if the text overflows the column height */
@@ -234,8 +234,8 @@ footer {
     width: 50%;
     padding: 10px;
     padding-top: 1.9%;
-    height: 400px;
-    background-color: #4d4d4d;
+    height: 300px;
+    background-color: rgb(207, 201, 189);
 }
 
 /* .this class is applied to the columns in the final row, overriding the height and padding 
@@ -244,7 +244,7 @@ column_1 or _2 */
 
 .column_tall {
     padding-top: 3.5%;
-    height: 450px;
+    height: 400px;
 } 
 
 /* this inserts something after the content of selected elements (in this case the elements
@@ -267,8 +267,8 @@ input[type=text] {
     border: 1px solid #ccc; /*  setting a solid border and its color  */
     border-radius: 4px; /* rounds the corners of the text box border*/
     box-sizing: border-box; /* creates a box with a border around the contact form input boxes */
-    margin-top: 6px; /*  adds margin to top of text box  */
-    margin-bottom: 16px; 
+    margin-top: 2px; /*  adds margin to top of text box  */
+    margin-bottom: 0px; 
     resize: vertical; /* allows the user to resize the text boxes vertically  */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif Bold;
 }
@@ -276,7 +276,7 @@ input[type=text] {
 /*  hover effects for input boxes  */
 
 input[type=text]:hover {
-    box-shadow: 0 0 5px #00004d inset; /* creates a chosen colored shadow in the text box when hovered over */
+    box-shadow: 0 0 5px rgb(205, 190, 162) inset; /* creates a chosen colored shadow in the text box when hovered over */
 }
 
 /*  submit button  */
@@ -307,9 +307,10 @@ input[type=submit]:hover {
 
 form {
     border-radius: 5px; /* rounds corners of the contact form  */
-    background-color: #f2f2f2;
+    background-color: rgb(232, 224, 209);
     padding: 10px; /* adds padding to the contact form */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 /********* end of contact from styling ********************/
