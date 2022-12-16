@@ -4,7 +4,7 @@
 This repository is comprised of all of my HTML and CSS projects while at The Tech Academy.
 Feel free to browse around.
 
-Movie Theater Site
+[Movie Theater Site](https://github.com/Michael1388/HTML_CSS_projects/blob/main/COURSEWORK/BOOTSTRAP/Bootstrap4_project/academy_cinemas.html)
 
 If you want to see the conclusion of this specific course,
 below is a highlight of what the course enabled me to complete, my "Final Project".
