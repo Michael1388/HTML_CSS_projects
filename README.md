@@ -1,4 +1,4 @@
-### HTML and CSS Projects
+# HTML and CSS Projects
 
 
 This repository is comprised of all of my HTML and CSS projects while at The Tech Academy.
@@ -13,8 +13,8 @@ This project is a page designed using basic HTML and CSS to render a nice basic 
 
 This page was styled using Bootstrap and contains many bootstrap components including a navbar, jumbotron, form, cards, dropdowns and more.
 
-If you want to see the conclusion of this specific course,
-below is a highlight of what the course enabled me to complete, my "Final Project".
+## To see the conclusion of this specific course
+Below is a highlight of what this course enabled me to learn and accomplish culminating in my "Final Project".
 
 NOTE: 
 FINAL PROJECT
@@ -27,4 +27,5 @@ You will be redirectd to the completed published live version of :
  http://michael-larocca.com/ 
 
 Thanks for visiting and have a great day!!
-Michael La Rocca
+
+#### Michael La Rocca
