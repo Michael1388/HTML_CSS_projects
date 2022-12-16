@@ -3,5 +3,7 @@ Feel free to browse around but if you want to get down to the conclusion,
 below is a highlight of what the course enabled me to complete, my "Final Project".
 
 
-http://michael-larocca.com/
+You will be redirectd to the completed published live version of : http://michael-larocca.com/
 
+Thanks for visiting and have a great day!!
+Michael La Rocca
