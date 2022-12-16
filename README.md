@@ -7,7 +7,11 @@ Feel free to browse around.
 
 [Market Garden | Resort B & B](https://github.com/Michael1388/HTML_CSS_projects/blob/main/COURSEWORK/BOOTSTRAP/Basic_HTML_Website/PROJECT/index.html)
 
+This project is a page designed using basic HTML and CSS to render a nice basic website with a contact form.
+
 [Movie Theater Site](https://github.com/Michael1388/HTML_CSS_projects/blob/main/COURSEWORK/BOOTSTRAP/Bootstrap4_project/academy_cinemas.html)
+
+This page was styled using Bootstrap and contains many bootstrap components including a navbar, jumbotron, form, cards, dropdowns and more.
 
 If you want to see the conclusion of this specific course,
 below is a highlight of what the course enabled me to complete, my "Final Project".
