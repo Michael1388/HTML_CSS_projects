@@ -4,20 +4,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" />
-        <title>ML</title>
+        <title>ML | Software Developer</title>
+        <link rel="shortcut icon" type="img/png" href="./img/favicon-32x32.png">
         <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
-        <link rel="icon" type="image/png" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" href="./img/favicon.ico">
     </head>
 
     <!--body-->
-    <body class="background"></body>
+    <body class="background">
 
         <!--Navbar-->
         <div class="navbar">
             <a class="active" href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#github">GitHub</a>
-            <a href="#contact">Contact</a>
+           <!-- <a href="#contact">Contact</a> -->
+            <a href="#Slideshow">Slideshow</a>
+            <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
         </div>
         
         <!--breaks inserted to add space between navbar and the first heading-->
@@ -39,15 +42,68 @@
             <strong>
                 <p class="center">
                     <br>
-                    <q>Every day is a gift.
-                        <br>Relax, enjoy and welcome!
-                    </q>
+                    <br><h2 class="white_text">Thank you for stopping by!</h2> 
                     <br>
-                    <br> Thank you for stopping by!
-                    <br> -Michael
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                 </p>
             </strong>
         </div>
+        <!-- SLIDESHOW section -->
+        <div id="Slideshow">
+            <div id="Slideshow_Background">
+                <div id="Slideshow_Container">
+                    <!--SLide 1 of 6-->
+                    <div class="slide fade">
+                        <img class="Slideshow_Images" src="img/IMG_0765.png" alt="Michael LaRocca">
+                        <div class="text">I am available to assit you on your project!</div>
+                    </div>
+                    <!--SLide 2 of 6-->
+                    <div class="slide fade">
+                        <img class="Slideshow_Images" src="img/HTML_CSS_and_JavaScript.jpeg" alt=">HTML, CSS, JavaScript JS logos">
+                        <div class="text">I am a full-stack developer,<br> trained in:<br>HTML, CSS, JavaScript and..</div>
+                    </div>
+                    <!--SLide 3 of 6-->
+                    <div class="slide fade">
+                        <img class="Slideshow_Images" src="img/Python.png" alt="Python Logo">
+                        <div class="text">the popular programming language Python..</div>
+                    </div>
+                    <!--SLide 4 of 6-->
+                    <div class="slide fade">
+                        <img class="Slideshow_Images" src="img/C_Sharp_and_Dot_NET.png" alt="C# logo">
+                        <div class="text">C#, .NET Framework, ASP.NET, MVC,..</div>
+                    </div>
+                    <!--SLide 5 of 6-->
+                    <div class="slide fade">
+                        <img class="Slideshow_Images" src="img/SQL_and_Database.jpg" alt="SQL Logo">
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                    <!--SLide 6 of 6-->
+                    <div class="slide fade">
+                        <img class="Slideshow_Images" src="img/html_css1.png" alt="Contact Michael">
+                        <div class="text"><a class="white_text contact" onclick="openForm()">Contact me</a></div>
+                    </div>
+                    <!--Previous and Next Buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- adds a space between the slideshow images and the dots-->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow)-->
+                <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+            </div>
+        </div>
+        <!--END  SLIDESHOW section -->
 
         <!------about section---->
         <div class="row" id="about">
@@ -58,13 +114,13 @@
 
             <!--right column-->
             <div class="column_1">
-                <h1>About</h1>
+                <h1>About Me</h1>
                 <p>
-                    I'm a software developer. Every project is an amazing new journey down a yet to be discovered path. A puzzle to be created, and I love puzzles! 
+                    I'm Michael La Rocca, I believe every project is an amazing journey, a new puzzle to be assembled and I love puzzles!
                     <br>
                     <br>I'm a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and am trained and experienced in the following programming and web languages: C#, JavaScript, SQL, HTML, CSS and more.
                     <br>
-                    <br>I am a full stack developer. I'd love to work with you on your project, <a href="#contact">Contact</a> me below! 
+                    <br>I'm a software developer, a coder, or programmer; a full stack developer. I'd love to work with you on your project, <a href="#contact">Contact</a> me below! 
                 </p>
             </div>
         </div>
@@ -82,22 +138,21 @@
             </div>
             <!--right column---->
             <div class="column_2">
-                <a href="https://github.com/Michael1388" target="_blank"><img src="img/github-mark.png" alt="Michael1388 GitHub Logo"></a>
+                <a href="https://github.com/Michael1388" target="_blank"><img src="img/GitHub.png" alt="Michael1388 GitHub Logo"></a>
             </div>
         </div>
 
-        <!---contact section---->
+        <!---contact section---COMMENTED OUT V1----
         <div class="row" id="contact">
-            <!---contact image, left conlumn---->
+            <-!---contact image, left conlumn----
             <div class="column_2 column_tall">
                 <img src="img/contact.jpg" alt="contact image">
             </div>
-            <!----contact form, right column----->
+            <-!---contact form, right column---
             <div class="column_1 column_tall">
                 <h1>Contact</h1>
-                <!---this specifies where and how to send the form data; we are leaving it blank-->
-                <form action="https://formspree.io/f/xoqbggob" method="post"> <!--here we are utilizing a 3rd party service to submit the contact data, insert your endpoint in the action attribute---->
-                <label>Name:</label>
+                <-!-this specifies where and how to send the form data; we are leaving it blank---
+                <form action="https://formspree.io/f/xoqbggob" method="post"> <-!-here we are utilizing a 3rd party service to submit the contact data, insert your endpoint in the action attribute---
                     <input type="text" placeholder="Please enter your name here">
                 <label>Email:</label>
                     <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
@@ -106,14 +161,43 @@
                     <input type="submit" value="SUBMIT">
                 </form>
             </div>
+        </div>---->
+
+        <!-- CONTACT FORM V2 --->
+
+        <div id="Contact">
+            <button onclick="openForm()" class="Pop_Up_Button">Contact</button>
+            <div class="form-popup" id="myForm">
+                <form action="https://formspree.io/f/xoqbggob" method="POST" class="form-container"> 
+                    <h1>Contact</h1>
+                    <label for="name"><b>Name</b></label>
+                        <input type="text" placeholder="Name" name="name" required>
+                    <label for="phone"><b>Phone</b></label>
+                        <input type="text" placeholder="Phone Number" name="phone" required>
+                    <label for="email"><b>Email Address</b></label>
+                        <input type="text" placeholder="Email Address" name="email" required>
+                    <label for="message"><b>Message</b></label>
+                        <input type="text" placeholder="Type your message here" name="message" required>
+
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                </form>
+            </div>
         </div>
+        <!-- END - CONTACT FORM V2 --->
 
         <!---footer---->
         <footer>
             <p>
             <p class="center">&copy <a> Michael La Rocca </a></p>
             <br>
-        </p>
+        <div>
+            <a class="linked" href="https://www.linkedin.com/in/michael-l-801b2198/" target="_blank"><img src="./img/120px-LinkedIn_logo_initials.png" alt="Michael LaRocca Linkedin Logo"></a>
+            </p>
+        </div>
+
         </footer>
+
+        <script src="./js/main.js"></script>
     </body>
 </html>
