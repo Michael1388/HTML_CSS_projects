@@ -17,7 +17,7 @@ This page was styled using Bootstrap and contains many bootstrap components incl
 Below is a highlight of what this course enabled me to learn and accomplish culminating in my "Final Project".
 
 NOTE: 
-FINAL PROJECT
+FINAL PROJECT Updated after the JavaScript course adds new features.
 Right-click and open in a new tab, otherwise;
 
 You will be redirectd to the completed published live version of :
