@@ -24,7 +24,7 @@ You will be redirectd to the completed published live version of :
 
 [My Portfolio Website](https://michael-larocca.com/)
 
- http://michael-larocca.com/ 
+ https://michael-larocca.com/ 
 
 Thanks for visiting and have a great day!!
 
